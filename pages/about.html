@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Maak een link naar onze eigen CSS -->
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav class="nav-extended">
+            <div class="nav-wrapper">
+                <a href="../index.html" id="logo" class="brand-logo">Animals</a>
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons menu">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../pages/cute.html">How cute?</a></li>
+                    <li><a href="../pages/friendly.html">Friendly?</a></li>
+                    <li class="active"><a href="../pages/about.html">About</a></li>
+                </ul>
+            </div>
+            <div class="nav-content">
+                <ul class="tabs tabs-transparent">
+                    <li class="tab"><a id="tabEagle" onclick="toggleActive(this)" class="active" href="#eagle">Eagle</a></li>
+                    <li class="tab"><a id="tabHamster" onclick="toggleActive(this)" class="" href="#hamster">Hamster</a></li>
+                    <li class="tab"><a id="tabQuokka" onclick="toggleActive(this)" class="" href="#quokka">Quokka</a></li>
+                    <li class="tab"><a id="tabInfo" onclick="toggleActive(this)" class="" href="#info">Author</a></li>
+                  </ul>
+            </div>
+        </nav>
+    </div>
+
+    <ul id="slide-out" class="sidenav">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages/cute.html">How cute?</a></li>
+        <li><a href="../pages/friendly.html">Friendly?</a></li>
+        <li class="active"><a href="../pages/about.html">About</a></li>
+    </ul>
+
+    <div class="middleTight">
+        <div id="eagle"></div>
+        <div class="row" style="margin-top: 60px;">
+            <div class="col s12 m7">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="../images/bald-eagle.jpg">
+                        <span class="card-title">Not-So-Bald Eagle</span>
+                    </div>
+                    <div class="card-content">
+                        <p>With a 2 m (7 ft.) wing span, a weight of 3-7 kg (7-15 lb.), and an overall size of 71-96 cm
+                            (28-38 in.), the bald eagle is one of the largest raptors in the world. Living near a constant
+                            source of water, bald eagles feast on fish, ducks, snakes and turtles. They will also eat
+                            rabbits, muskrats, and dead animals.</p>
+                    </div>
+                    <div class="card-action">
+                        <a
+                            href="https://www.google.com/search?q=bald+eagle&tbm=isch&ved=2ahUKEwjnt_PE9cjuAhUuuaQKHbBlCtsQ2-cCegQIABAA&oq=bald+eagle&gs_lcp=CgNpbWcQAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAA6BAgAEEM6BAgAEAM6BQgAELEDOggIABCxAxCDAToHCAAQsQMQQ1DSiwFY55wBYMyeAWgCcAB4AIABc4gBiQiSAQM0LjaYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=CxMYYKeGKa7ykgWwy6nYDQ&bih=938&biw=1920&client=firefox-b-d&hl=nl">Click
+                            me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="hamster"></div>
+        <div class="row">
+            <div class="col s12 m7">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="../images/hamster.jpg">
+                        <span class="card-title">Hamster</span>
+                    </div>
+                    <div class="card-content">
+                        <p>It's... It's just a hamster...</p>
+                    </div>
+                    <div class="card-action">
+                        <a
+                            href="https://www.google.com/search?q=hamster&tbm=isch&ved=2ahUKEwil0daz9cjuAhXdkKQKHTfLDqgQ2-cCegQIABAA&oq=hamster&gs_lcp=CgNpbWcQAzIECCMQJzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIHCAAQsQMQQzIECAAQQzIECAAQQzoCCAA6BQgAELEDUIf6AVjR_gFgwf8BaABwAHgAgAGtAogBswOSAQcwLjEuMC4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=5xIYYOXBId2hkgW3lrvACg&bih=938&biw=1920&client=firefox-b-d&hl=nl">Click
+                            me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div id="quokka"></div>
+        <div class="row">
+            <div class="col s12 m7">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="../images/quokka.jpg">
+                        <span class="card-title">Quokka</span>
+                    </div>
+                    <div class="card-content">
+                        <p>A Quokka is a kind of walibi (a small kangaroo) and was discovered around the 1600s. It's known
+                            around the world for its smile. They can only be found on the Rottnest Island and Bald Island in
+                            Australia and they are easiest to spot in the early morning or evening because they sleep all
+                            day.</p>
+                    </div>
+                    <div class="card-action">
+                        <a
+                            href="https://www.google.com/search?q=quokka&client=firefox-b-d&bih=938&biw=1920&hl=nl&sxsrf=ALeKk01GIE59zbFuX6GPucH51RULQUnyUg:1612190437864&source=lnms&tbm=isch&sa=X&ved=2ahUKEwismu-y9cjuAhUGyqQKHV0jBDIQ_AUoAXoECAYQAw">Click
+                            me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="info"></div>
+    
+        <div class="row middle" style="margin-top: 20cm;">
+            <p>Deze pagina's werden geschreven door Tommy Tytgat voor een opdracht van Web Apps in het tweede jaar Elektronica ICT.</p>
+        </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Maak een link naar onze eigen JavaScript -->
+    <script src="../scripts/myscript.js"></script>
+</body>
+
+</html>
